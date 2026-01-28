@@ -5,7 +5,7 @@ message = "running unindented"
 if RUN_INDENTED:
     message = "running indented"
 
-print(message)
+print(f'{message})
 
 
 def my_function():
